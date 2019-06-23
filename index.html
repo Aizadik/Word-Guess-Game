@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Patrick+Hand" rel="stylesheet">
+    <title>Word Guess Game</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Let's Play Word Guess Game!</h1>
+    </div>
+
+    <div class="resultText">
+        <p id="resultTextChange">
+
+        </p>
+    </div>
+
+    <div class="leftGrid fullGrid" id="image-placeholder">
+        <img id="letters" src="assets/images/letter-image1.jpg" alt="letter-image" width="450" height="750">
+    </div>
+
+    <div class="rightGrid fullGrid">
+
+        <div class="main-text">
+            <p>Hint: Look at the image on your left!</p>
+            <p>Press Any Key to Begin!</p>
+            <p>Wins</p>
+            <p id="total-wins">0</p>
+            <p>Current Word</p>
+            <p id="current-word"></p>
+            <p>Number of Guesses Remaining</p>
+            <p id="guesses-remaining"></p>
+            <p>Letters Already Guessed</p>
+            <p id="already-guessed"></p>
+        </div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>

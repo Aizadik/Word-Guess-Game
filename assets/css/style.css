@@ -1,0 +1,79 @@
+body {
+    /* background-color: #87CEFA; */
+    background-color: lightslategray;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: wheat;
+}
+
+#resultTextChange {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    padding: 0;
+    margin-top: 60px;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.fullGrid {
+    height: 750px;
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border: 5px dotted wheat;
+}
+
+.leftGrid {
+    float: left;
+    margin-left: 280px;
+}
+
+.answerImage {
+    width: 350px;
+    margin-left: 50px;
+    margin-top: -800px;
+    padding-bottom: 100px;
+    visibility: hidden;
+}
+
+#beefsquatch {
+    margin-top: -350px;
+}
+
+#fischoeder {
+    padding-bottom: 350px;
+}
+
+#louise {
+    padding-bottom: 300px;
+}
+
+#marshmallow {
+    padding-bottom: 440px;
+}
+
+#frond {
+    padding-bottom: 440px
+}
+
+#mudflap {
+    padding-bottom: 270px;
+}
+
+.rightGrid {
+    float: left;
+    border-left: none;
+    margin-left: 5px;
+}
+
+.main-text {
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    /* color: white; */
+}
