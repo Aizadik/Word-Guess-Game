@@ -40,30 +40,6 @@ h1 {
     visibility: hidden;
 }
 
-#beefsquatch {
-    margin-top: -350px;
-}
-
-#fischoeder {
-    padding-bottom: 350px;
-}
-
-#louise {
-    padding-bottom: 300px;
-}
-
-#marshmallow {
-    padding-bottom: 440px;
-}
-
-#frond {
-    padding-bottom: 440px
-}
-
-#mudflap {
-    padding-bottom: 270px;
-}
-
 .rightGrid {
     float: left;
     border-left: none;
